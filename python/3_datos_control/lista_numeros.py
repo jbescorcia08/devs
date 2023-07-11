@@ -6,13 +6,14 @@ El resultado de nuestro programa debería ser este: 12, 56, -3, 1789, 237, -45
 Nº  pequeño: -45
 Nº  grande: 1789"""
 
-lista_numeros = [12, 56, -3, 1789, 237, -45]
+lista_numeros = [12, 56, -3, -1789, 237, -45]
+numero_mayor = float('-inf')  # Initialize with smallest possible value
+numero_menor = float('inf')   # Initialize with largest possible value
 
 for i in lista_numeros:
-    pos = i + 1
-    if i > lista_numeros.index(pos):
-        temp = i
-        numero_mayor = temp
+    if i > numero_mayor:
+        numero_mayor = i
+    if i < numero_menor:
+        numero_menor = i
 
-
-print(list(numero_mayor))
+print("Número Mayor: {}, Número Menor: {}".format(numero_mayor, numero_menor))
