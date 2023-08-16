@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ejercicios.iml" filepath="$PROJECT_DIR$/Ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio-01/ejercicio-01.iml" filepath="$PROJECT_DIR$/ejercicio-01/ejercicio-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio-02/ejercicio-02.iml" filepath="$PROJECT_DIR$/ejercicio-02/ejercicio-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio-03/ejercicio-03.iml" filepath="$PROJECT_DIR$/ejercicio-03/ejercicio-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio-04/ejercicio-04.iml" filepath="$PROJECT_DIR$/ejercicio-04/ejercicio-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio-05/ejercicio-05.iml" filepath="$PROJECT_DIR$/ejercicio-05/ejercicio-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecturaEscrituraUser/lecturaEscrituraUser.iml" filepath="$PROJECT_DIR$/lecturaEscrituraUser/lecturaEscrituraUser.iml" />
     </modules>
   </component>
 </project>
